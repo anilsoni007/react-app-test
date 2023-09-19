@@ -1,4 +1,4 @@
-FROM dpthub/dpt7-node-base 
+FROM https://github.com/anilsoni007/react-app-test.git 
 COPY ./deployment/package.json /opt/
 COPY ./deployment/index.js /opt/
 COPY ./build/ /opt/dist
